@@ -254,8 +254,8 @@ class HelpPage:
         
         github_button = ctk.CTkButton(
             github_frame,
-            text="linxiajin08/linxiajinKouri",
-            command=lambda: webbrowser.open("https://github.com/linxiajin08/linxiajinKouri"),
+            text="KouriChat/KouriChat_ToolBox",
+            command=lambda: webbrowser.open("https://github.com/KouriChat/KouriChat_ToolBox"),
             font=Theme.get_font(size=14),
             fg_color=Theme.BG_TERTIARY,
             hover_color=Theme.BUTTON_SECONDARY_HOVER,
