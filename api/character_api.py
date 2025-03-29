@@ -54,7 +54,7 @@ class CharacterAPI:
             f"{self.base_url.rstrip('/')}/v1/chat/completions",
             headers=headers,
             json=data,
-            timeout=30
+            timeout=300
         )
         
         response.raise_for_status()
@@ -78,7 +78,7 @@ class CharacterAPI:
             f"{self.base_url.rstrip('/')}/v1/chat/completions",
             headers=headers,
             json=data,
-            timeout=30
+            timeout=300
         )
         
         response.raise_for_status()

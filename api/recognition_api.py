@@ -75,7 +75,7 @@ class RecognitionAPI:
             f"{self.base_url.rstrip('/')}/v1/chat/completions",
             headers=headers,
             json=data,
-            timeout=30  # 图片识别可能需要更长时间
+            timeout=300  # 图片识别可能需要更长时间
         )
         
         response.raise_for_status()
